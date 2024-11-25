@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cocktails Website</title>
+    <link rel="stylesheet" href="cocktailstyle.css">
+</head>
+<body>
+    <nav>
+        <button id="view-basket" class="nav-button">View Basket (0)</button>
+        <a href="orders.html" class="nav-button">Orders</a>
+        <a href="index.html" class="nav-button">PopularList List</a>
+
+        <div id="alphabet-buttons">
+
+
+        </div>
+    </nav>
+    <br>
+    <br>
+
+
+    <div id="basket-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Basket</h2>
+            <div id="basket-items"></div>
+            <input type="number" id="table-number" placeholder="Enter table number">
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+
+    <ul id="popularCocktails" class="cocktail-grid"></ul>
+
+    <script src="cocktails.js"></script>
+</body>
+</html>

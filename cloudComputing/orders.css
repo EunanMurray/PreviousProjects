@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#order-queue {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    height: 500px; /* Fixed height with scroll */
+    overflow-y: scroll;
+}
+
+#order-queue ul {
+    list-style: none;
+    padding: 0;
+}
+
+#order-queue li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#order-details {
+    width: 68%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #45a049;
+}
